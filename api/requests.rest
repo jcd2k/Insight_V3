@@ -1,0 +1,14 @@
+GET http://localhost:3001/todos
+
+###
+
+POST http://localhost:3001/todo/new
+Content-Type: application/json
+
+{
+    "text": "do laundry"
+}
+
+###
+
+DELETE http://localhost:3001/todo/delete/63bc86be29ce750eb5031d95
